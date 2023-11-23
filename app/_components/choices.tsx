@@ -9,7 +9,6 @@ interface ChoicesProps {
     onChange: (value: string) => void
 }
 export default function Choices({ name, placeholder, onChange}: ChoicesProps) {
-    const [choice, setChoice] = useState('')
     return (
         <div className="w-full">
             <input
